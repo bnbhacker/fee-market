@@ -1,0 +1,47 @@
+{
+  "name": "fee-market-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Frontend for fee market — a Solana token-fee marketplace.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "1.1.1",
+    "@metaplex-foundation/mpl-core-candy-machine": "0.3.0",
+    "@metaplex-foundation/mpl-toolbox": "0.9.4",
+    "@metaplex-foundation/umi": "0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "0.9.2",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "0.9.2",
+    "@solana/spl-token": "0.4.6",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/wallet-adapter-phantom": "^0.9.29",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-solflare": "^0.6.33",
+    "@solana/web3.js": "^1.98.4",
+    "@supabase/supabase-js": "^2.106.2",
+    "buffer": "^6.0.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.2",
+    "vite-plugin-node-polyfills": "^0.28.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@noble/hashes": "1.8.0"
+    }
+  }
+}

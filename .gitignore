@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# builds
+dist/
+build/
+
+# secrets / env — never commit these
+.env
+.env.*
+!.env.example
+
+# supabase local
+supabase/.branches/
+supabase/.temp/
+
+# logs / os / editor
+*.log
+.DS_Store
+.idea/
+.vscode/
