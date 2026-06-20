@@ -15,7 +15,7 @@ Mint a share, claim the coupons, trade the NFTs on the open market.
 
 ---
 
-> **Status:** active development on **devnet**. This is a working build, not a finished product — see the [roadmap](#roadmap). Nothing here uses real funds.
+> **Status:** active development on **mainnet**
 
 ## The idea
 
@@ -116,15 +116,6 @@ VITE_SUPABASE_ANON_KEY=...
 
 Edge Functions read a `TREASURY_PRIVATE_KEY` secret (set via `supabase secrets set`) — it is **never** committed or shipped to the browser.
 
-## Roadmap
-
-- [x] Devnet token launch (in-browser SPL)
-- [x] Auto-create a 100-NFT Core collection + Candy Machine per token
-- [x] Frontend minting (single & batch) via Phantom / Solflare
-- [x] Mint revenue routed to the token creator
-- [ ] On-chain claim of accrued fees by NFT holders
-- [ ] Admin dashboard
-- [ ] Mainnet (pump.fun integration, priority fees, hardened access control)
 
 ## License
 
