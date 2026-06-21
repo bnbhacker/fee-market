@@ -9,6 +9,8 @@
 Launch a token, issue 100 NFTs against it — each NFT earns **1% of the token's trading fees**.
 Mint a share, claim the coupons, trade the NFTs on the open market.
 
+*Official fee market token - CjytQchVeTzowqUMktrGzyHQZHnzi8pjQRYrSApB1EqY
+
 `React + TypeScript` · `Solana web3.js` · `Metaplex Core Candy Machine` · `Supabase Edge Functions (Deno)`
 
 </div>
