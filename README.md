@@ -2,14 +2,14 @@
 
 
 
-# fee market
+# feemint
 
 **Own the cut.** A marketplace for token fees on Solana.
 
 Launch a token, issue 100 NFTs against it — each NFT earns **1% of the token's trading fees**.
 Mint a share, claim the coupons, trade the NFTs on the open market.
 
-*Official fee market token - CjytQchVeTzowqUMktrGzyHQZHnzi8pjQRYrSApB1EqY
+*Official feemint token - 
 
 `React + TypeScript` · `Solana web3.js` · `Metaplex Core Candy Machine` · `Supabase Edge Functions (Deno)`
 
@@ -21,7 +21,7 @@ Mint a share, claim the coupons, trade the NFTs on the open market.
 
 ## The idea
 
-Every token's trading generates creator fees. **fee market** turns the right to that fee stream into something you can own and trade:
+Every token's trading generates creator fees. **feemint** turns the right to that fee stream into something you can own and trade:
 
 1. **A token is launched.** On launch it issues a collection of **100 NFTs**.
 2. **1 NFT = 1% of the token's fees.** Hold an NFT, earn a proportional share of the fees the token collects.
