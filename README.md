@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="web/public/brand-mark.png" width="84" alt="fee market" />
+
 
 # fee market
 
